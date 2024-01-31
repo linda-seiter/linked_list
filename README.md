@@ -10,9 +10,9 @@ Linda Seiter
 
 ---
 
-## Why are linked lists so challenging to learn?
+## Why are linked lists challenging to learn?
 
-- Composition (LinkedList + Node) **and** Self-Referential (Node)
+- Composition (LinkedList + Node) **and** Self-Referential Class (Node)
 - Object traversal, null reference, circular reference
 - Reference reassignment
 - Abstract software object, not a "real world" object
@@ -93,24 +93,25 @@ public class Engine {
 
 ---
 
-## Debugging to help students understand object references
+## Debugging helps students understand complex object concepts
 
-- Visual debugger
-
-- Builtin IDE debugger
+- Map static algorithms/code to dynamic object state and control flow
+- Learn how to find and fix errors
+  - Visual debugger
+  - Builtin IDE debugger
 
 ---
 
-## Linked List Warmup Assessment
+## Warmup Assessment
 
 - Worksheet: Object state <-> Code
 - Coding Task: Update RailwayCar to store passenger class. Update Engine
   addTo..() methods to maintain class order:1st class cars, 2nd class cars, etc.
 - Coding Task: Add a splice method that takes 2 car ids and removes that section
   of the train
-- Coding Task: Update RailwayCar with field for weight. Update the Engine class
-  with a field for maximum weight it can pull. Update Engine methods to prevent
-  too heavy a load.
+- Coding Task: Update RailwayCar with fields for passenger capacity and
+  occupancy. Update Engine with new method to load n passengers, starting with
+  the front car. Method returns number of passengers unable to board.
 
 ---
 
@@ -120,6 +121,7 @@ I've used Zybooks for some of my intro programming courses.
 
 - Participation Activities (formative throughout lesson)
 - Challenge Activities (summative per lesson)
+- Exercises & Labs (summative per chapter)
 
 ![bg right 90%](img/zybooks1.png)
 
